@@ -47,7 +47,7 @@ Secured 7th Position in Startupvapi's Startup Star Season 1 Competition among hu
 The idea for the pitch was about Petmania - An all in one Pet solution that makes the lives of pet owners easier.
 
 # Education
-B.Tech in Computer Science and Engineering (Specialisation in Artificial Intelligence and Machine Learning), VIT Bhopal University
+B.Tech in Computer Science and Engineering (Specialisation in Artificial Intelligence and Machine Learning), VIT Bhopal University  
 2023 - 2027
 
 # Contact
