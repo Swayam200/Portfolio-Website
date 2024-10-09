@@ -54,4 +54,4 @@ B.Tech in Computer Science and Engineering (Specialisation in Artificial Intelli
 LinkedIn: [My LinkedIn](https://www.linkedin.com/in/swayam200/)
 GitHub: [My GitHub](https://github.com/Swayam200)
 HackerRank: [My HackerRank](https://www.hackerrank.com/profile/swayam200)
-Email: [My email](swayam.panda200@gmail.com)
+Email: [My email](mailto:swayam.panda200@gmail.com)
