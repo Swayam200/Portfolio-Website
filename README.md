@@ -1,5 +1,5 @@
 # Swayam Prakash Panda
-![IMG_1123](https://github.com/user-attachments/assets/b7b806ee-dd88-4ba9-a09e-9158b746f6cf)
+![IMG_1123 (1)](https://github.com/user-attachments/assets/797e59aa-9554-42bc-8425-a8ee440d7cf2)
 
 Welcome to my personal website! This is where you can find information about my professional experience, skills, and projects. Feel free to explore and connect with me via the links below.
 
@@ -32,17 +32,17 @@ GitHub Repo: [Project Link](https://github.com/Swayam200/Trivia-MastersAn)
 # Certificates
 Foundations: Data, Data, Everywhere
 Google
-![Coursera QO2KN7WI65M5_page-0001](https://github.com/user-attachments/assets/d80dd7ff-62a9-4bbf-9e6c-aa1167ef9782)
+![Coursera QO2KN7WI65M5_page-0001](https://github.com/user-attachments/assets/c7a75365-6a7c-4c6c-9cc9-ebad7d2cdf94)
 
   
 Programming for Everybody (Getting Started with Python)
 University of Michigan 
-![Coursera 1MWRRGKQBZKG_page-0001](https://github.com/user-attachments/assets/e407e9d5-afd5-41e8-b886-08b104cc45a2)
+![Coursera 1MWRRGKQBZKG_page-0001](https://github.com/user-attachments/assets/6ac7dca8-4128-4a06-abd9-96054418a2fc)
 
   
 Python (Basic) 
 Hackerank
-![python_basic certificate_page-0001](https://github.com/user-attachments/assets/3a626fd2-d48a-46a2-96d4-78ede3ba4c1b)
+![python_basic certificate_page-0001](https://github.com/user-attachments/assets/f0660313-6247-4854-b10e-ea883b7521d9)
 
   
 
