@@ -2,49 +2,39 @@
 Welcome to my personal resume website! This is where you can find information about my professional experience, skills, and projects. Feel free to explore and connect with me via the links below.
 
 # About Me
-Hello! I am a passionate [Your Profession] with experience in [Field/Industry]. I love working on projects that solve real-world problems using technology and data. I'm always learning new things and improving my skills to stay updated with the latest industry trends.
+Hello! I am a passionate student with currently studying B.Tech Computer Science and Engineering (Specialisation in Aritifical Intelligence and Machine Learning) at VIT Bhopal. I love working on projects that solve real-world problems using technology and data. I'm always learning new things and improving my skills to stay updated with the latest industry trends.
 
 # Skills
-Programming Languages: Python, JavaScript, HTML, CSS
-Frameworks & Libraries: React, Django, Flask
-Tools: Git, Docker, VSCode, Postman
-Database Management: MySQL, MongoDB
-Others: Machine Learning, Data Analysis, Web Development
+Programming Languages: Python, C++, 
+Frameworks & Libraries: Pandas, NumPy, Matplotlib
+Tools: Git, VSCode, Tableau
+Database Management: MySQL
+Others: Machine Learning, Data Analysis
 
 # Projects
-1. Project Title 1
-Description: Brief description of the project, what it does, and the technologies used.
+1. Gender and Age Recognition System
+Description: Final project created for CBSE and Intel's AI 4 Youth programme in the year 2022.
 
-Technologies Used: Python, Flask, HTML/CSS, SQLite
+Technologies Used: Python, OpenCV
 
-GitHub Repo: Project Link
+![Intel AI 4 Youth Certificate](https://github.com/user-attachments/assets/0af3c019-2bda-496f-95b1-f87acb787dba)
 
-2. Project Title 2
-Description: Brief description of the project, highlighting any unique or challenging features.
+GitHub Repo: [Project Link](https://github.com/Swayam200/Intel-AI-4-Youth-Project)
 
-Technologies Used: React, Node.js, MongoDB
+2. Trivia Masters
+Description: An online quiz game based on Python and created using tkinter and pillow library. This was made for the final High School Project during the academic year 2022-23.
 
-GitHub Repo: Project Link
+Technologies Used: Python, MySQL, CSV
 
-# Experience
-[Job Title 1]
-Company Name
-Month YYYY - Month YYYY
+GitHub Repo: [Project Link](https://github.com/Swayam200/Trivia-MastersAn)
 
-Describe responsibilities and achievements.
-Example: Led a team of developers to build a machine learning model that reduced manual labor by 40%.
-[Job Title 2]
-Company Name
-Month YYYY - Month YYYY
-
-Describe responsibilities and achievements.
-Example: Implemented web solutions using Python and Django to automate reporting, saving 20 hours of manual work each week.
+# Certificates
 
 # Education
-[Degree] in [Field of Study], [University Name]
-Month YYYY - Month YYYY
+B.Tech in Computer Science and Engineering (Specialisation in Artificial Intelligence and Machine Learning), VIT Bhopal University
+2023 - 2027
 Contact
-LinkedIn: Your LinkedIn
-GitHub: Your GitHub
-HackerRank: Your HackerRank
-Email: Your Email
+LinkedIn: [My LinkedIn](https://www.linkedin.com/in/swayam200/)
+GitHub: [My GitHub](https://github.com/Swayam200)
+HackerRank: [My HackerRank](https://www.hackerrank.com/profile/swayam200)
+Email: [My email](swayam.panda200@gmail.com)
