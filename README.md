@@ -23,6 +23,10 @@ Technologies Used: Python, OpenCV
 
 GitHub Repo: [Project Link](https://github.com/Swayam200/Intel-AI-4-Youth-Project)
 
+![Intel AI 4 Youth Certificate (1)](https://github.com/user-attachments/assets/c3a1ac70-5864-4a4e-a18c-1b0264aaef58)  
+
+
+
 2. Trivia Masters
 Description: An online quiz game based on Python and created using tkinter and pillow library. This was made for the final High School Project during the academic year 2022-23.
 
