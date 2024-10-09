@@ -1,8 +1,8 @@
 # Swayam Prakash Panda
-![IMG_1123 (1)](https://github.com/user-attachments/assets/797e59aa-9554-42bc-8425-a8ee440d7cf2)
 
 Welcome to my personal website! This is where you can find information about my professional experience, skills, and projects. Feel free to explore and connect with me via the links below.
-
+![IMG_1123 (1)](https://github.com/user-attachments/assets/797e59aa-9554-42bc-8425-a8ee440d7cf2)
+  
 # About Me    
 print(Hello World!)  
 Hello everyone, I am a passionate student currently studying B.Tech Computer Science and Engineering (Specialisation in Aritifical Intelligence and Machine Learning) at VIT Bhopal. I love working on projects that solve real-world problems using technology and data. I'm always learning new things and improving my skills to stay updated with the latest industry trends.
