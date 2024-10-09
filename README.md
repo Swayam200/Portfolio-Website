@@ -49,7 +49,8 @@ The idea for the pitch was about Petmania - An all in one Pet solution that make
 # Education
 B.Tech in Computer Science and Engineering (Specialisation in Artificial Intelligence and Machine Learning), VIT Bhopal University
 2023 - 2027
-Contact
+
+# Contact
 LinkedIn: [My LinkedIn](https://www.linkedin.com/in/swayam200/)
 GitHub: [My GitHub](https://github.com/Swayam200)
 HackerRank: [My HackerRank](https://www.hackerrank.com/profile/swayam200)
