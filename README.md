@@ -32,17 +32,20 @@ GitHub Repo: [Project Link](https://github.com/Swayam200/Trivia-MastersAn)
 
 # Certificates
 Foundations: Data, Data, Everywhere  
-Google
+Google  
+
 ![Coursera QO2KN7WI65M5_page-0001](https://github.com/user-attachments/assets/c7a75365-6a7c-4c6c-9cc9-ebad7d2cdf94)
 
   
 Programming for Everybody (Getting Started with Python)  
-University of Michigan 
+University of Michigan  
+
 ![Coursera 1MWRRGKQBZKG_page-0001](https://github.com/user-attachments/assets/6ac7dca8-4128-4a06-abd9-96054418a2fc)
 
   
 Python (Basic)  
-Hackerank
+Hackerank  
+
 ![python_basic certificate_page-0001](https://github.com/user-attachments/assets/f0660313-6247-4854-b10e-ea883b7521d9)
 
   
