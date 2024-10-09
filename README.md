@@ -1,5 +1,7 @@
 # Swayam Prakash Panda
-Welcome to my personal resume website! This is where you can find information about my professional experience, skills, and projects. Feel free to explore and connect with me via the links below.
+![IMG_1123](https://github.com/user-attachments/assets/b7b806ee-dd88-4ba9-a09e-9158b746f6cf)
+
+Welcome to my personal website! This is where you can find information about my professional experience, skills, and projects. Feel free to explore and connect with me via the links below.
 
 # About Me    
 print(Hello World!)  
@@ -50,8 +52,12 @@ The idea for the pitch was about Petmania - An all in one Pet solution that make
 B.Tech in Computer Science and Engineering (Specialisation in Artificial Intelligence and Machine Learning), VIT Bhopal University  
 2023 - 2027
 
+Smt. Shobhaben Pratapbhai Patel Day Boarding School  
+Secondary School Examination, 2021 - 94.4%  
+Senior School Certificate Examination, 2023 - 84.6 %
+
 # Contact
-LinkedIn: [My LinkedIn](https://www.linkedin.com/in/swayam200/)
-GitHub: [My GitHub](https://github.com/Swayam200)
-HackerRank: [My HackerRank](https://www.hackerrank.com/profile/swayam200)
+LinkedIn: [My LinkedIn](https://www.linkedin.com/in/swayam200/)  
+GitHub: [My GitHub](https://github.com/Swayam200)  
+HackerRank: [My HackerRank](https://www.hackerrank.com/profile/swayam200)  
 Email: [My email](mailto:swayam.panda200@gmail.com)
