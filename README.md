@@ -27,7 +27,8 @@ GitHub Repo: [Project Link](https://github.com/Swayam200/Intel-AI-4-Youth-Projec
 
 
 
-2. Trivia Masters
+2. Trivia Masters  
+
 Description: An online quiz game based on Python and created using tkinter and pillow library. This was made for the final High School Project during the academic year 2022-23.
 
 Technologies Used: Python, MySQL, CSV
