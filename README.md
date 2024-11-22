@@ -40,8 +40,14 @@ Foundations: Data, Data, Everywhere
 Google  
 
 ![Coursera QO2KN7WI65M5_page-0001](https://github.com/user-attachments/assets/c7a75365-6a7c-4c6c-9cc9-ebad7d2cdf94)
-
   
+
+Ask Questions to Make Data-Driven Decisions
+Google
+
+![Ask Questions to Make Data-Driven Decisions Certificate](https://github.com/user-attachments/assets/1095a61c-67f4-480c-b8f9-8681020fbe28)
+  
+
 Programming for Everybody (Getting Started with Python)  
 University of Michigan  
 
