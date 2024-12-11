@@ -48,6 +48,12 @@ Google
 ![Ask Questions to Make Data-Driven Decisions Certificate](https://github.com/user-attachments/assets/1095a61c-67f4-480c-b8f9-8681020fbe28)
   
 
+Prepare Data for Exploration
+Google
+
+![Coursera Prepare Data for Exploration](https://github.com/user-attachments/assets/ce5e9755-3dc4-4413-b27a-c8d730c3ec1e)
+  
+
 Programming for Everybody (Getting Started with Python)  
 University of Michigan  
 
@@ -60,7 +66,13 @@ Hackerank
 ![python_basic certificate_page-0001](https://github.com/user-attachments/assets/f0660313-6247-4854-b10e-ea883b7521d9)
 
   
+BCG X Data Science Job Simulation on Forage, working on a customer churn analysis for PowerCo, a client experiencing high churn rates due to competitor activity. 
+Forage
 
+![BCG X Data Science Certificate](https://github.com/user-attachments/assets/ab87c156-af79-44b0-82b6-575e9993b302)
+
+  
+   
 # Honors & awards
 Startup Star Season 1
 Secured 7th Position in Startupvapi's Startup Star Season 1 Competition among hundreds of applicants from Valsad district.
