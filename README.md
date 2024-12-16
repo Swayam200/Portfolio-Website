@@ -53,7 +53,12 @@ Google
 
 ![Coursera Prepare Data for Exploration](https://github.com/user-attachments/assets/ce5e9755-3dc4-4413-b27a-c8d730c3ec1e)
   
+Process Data from Dirty to Clean  
+Google
 
+![Process Data from Dirty to Clean Certificate](https://github.com/user-attachments/assets/935cad21-55cf-48b4-8aa2-4246cee3a327)
+
+  
 Programming for Everybody (Getting Started with Python)  
 University of Michigan  
 
