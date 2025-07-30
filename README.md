@@ -1,98 +1,405 @@
-# Swayam Prakash Panda
+<div align="center">
 
-Welcome to my personal website! This is where you can find information about my professional experience, skills, and projects. Feel free to explore and connect with me via the links below.  
-  
-![IMG_1123 (1)](https://github.com/user-attachments/assets/797e59aa-9554-42bc-8425-a8ee440d7cf2)
-  
-# About Me    
-print(Hello World!)  
-Hello everyone, I am a passionate student currently studying B.Tech Computer Science and Engineering (Specialisation in Aritifical Intelligence and Machine Learning) at VIT Bhopal. I love working on projects that solve real-world problems using technology and data. I'm always learning new things and improving my skills to stay updated with the latest industry trends.
+# 🚀 Swayam Prakash Panda
 
-# Skills
-Programming Languages: Python, C++,   
-Frameworks & Libraries: Pandas, NumPy, Matplotlib  
-Tools: Git, VSCode, Tableau, MATLAB  
-Database Management: MySQL  
-Others: Machine Learning, Data Analysis  
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Data+Analyst+%7C+AI%2FML+Enthusiast;Google+Certified+Data+Analyst;Building+Tomorrow's+Solutions+Today!;B.Tech+CSE+(AIML)+Student" alt="Typing Animation" />
 
-# Projects
-1. Gender and Age Recognition System
-Description: Final project created for CBSE and Intel's AI 4 Youth programme in the year 2022.
+<!-- Profile photo placeholder: ![Profile Photo](https://github.com/Swayam200/Swayam200.github.io/raw/main/assets/profile.jpg) -->
 
-Technologies Used: Python, OpenCV
+<br>
 
-GitHub Repo: [Project Link](https://github.com/Swayam200/Intel-AI-4-Youth-Project)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/swayam200)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swayam200)
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:swayam.panda200@gmail.com)
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/swayam200)
 
-![Intel AI 4 Youth Certificate (1)](https://github.com/user-attachments/assets/c3a1ac70-5864-4a4e-a18c-1b0264aaef58)  
+![Profile Views](https://komarev.com/ghpvc/?username=Swayam200&color=blueviolet&style=flat-square)
 
+</div>
 
+---
 
-2. Trivia Masters  
+## 🎯 About Me
 
-Description: An online quiz game based on Python and created using tkinter and pillow library. This was made for the final High School Project during the academic year 2022-23.
+<table>
+<tr>
+<td width="60%">
 
-Technologies Used: Python, MySQL, CSV
+```python
+class SwayamPanda:
+    def __init__(self):
+        self.name = "Swayam Prakash Panda"
+        self.role = "Data Analyst & AI/ML Enthusiast"
+        self.education = "B.Tech CSE (AIML) @ VIT Bhopal"
+        self.location = "Daman and Diu, India"
+        self.certification = "Google Data Analytics Professional"
+        
+    def get_passion(self):
+        return [
+            "🔍 Machine Learning & Predictive Modeling",
+            "📊 Data Visualization & Analytics", 
+            "🏥 AI-driven Healthcare Solutions",
+            "🔒 Computer Vision & Cryptography",
+            "🌐 Open Source Contributions"
+        ]
+    
+    def current_status(self):
+        return "Building innovative solutions that matter! 🚀"
 
-GitHub Repo: [Project Link](https://github.com/Swayam200/Trivia-MastersAn)
+me = SwayamPanda()
+print(me.current_status())
+```
 
-# Certificates
-Foundations: Data, Data, Everywhere  
-Google  
+</td>
+<td width="40%">
 
-![Coursera QO2KN7WI65M5_page-0001](https://github.com/user-attachments/assets/c7a75365-6a7c-4c6c-9cc9-ebad7d2cdf94)
-  
+### 🌟 Quick Stats
+- 🎓 **Student** at VIT Bhopal University
+- 📜 **Google Certified** Data Analyst  
+- 🏆 **7th Place** Startup Star Finalist
+- 🔬 **Open Source** Contributor
+- 💼 **3+ Years** of Programming Experience
+- 🚀 **10+** Projects Completed
 
-Ask Questions to Make Data-Driven Decisions  
-Google
+<!-- Stats image placeholder: ![GitHub Stats](https://github.com/Swayam200/Swayam200.github.io/raw/main/assets/stats.png) -->
 
-![Ask Questions to Make Data-Driven Decisions Certificate](https://github.com/user-attachments/assets/1095a61c-67f4-480c-b8f9-8681020fbe28)
-  
+</td>
+</tr>
+</table>
 
-Prepare Data for Exploration  
-Google
+---
 
-![Coursera Prepare Data for Exploration](https://github.com/user-attachments/assets/ce5e9755-3dc4-4413-b27a-c8d730c3ec1e)
-  
-Process Data from Dirty to Clean  
-Google
+<div align="center">
 
-![Process Data from Dirty to Clean Certificate](https://github.com/user-attachments/assets/935cad21-55cf-48b4-8aa2-4246cee3a327)
+## 🛠️ Tech Stack & Skills
 
-  
-Programming for Everybody (Getting Started with Python)  
-University of Michigan  
+<table>
+<tr>
+<td align="center" width="33%">
 
-![Coursera 1MWRRGKQBZKG_page-0001](https://github.com/user-attachments/assets/6ac7dca8-4128-4a06-abd9-96054418a2fc)
+### 💻 Programming
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-  
-Python (Basic)  
-Hackerank  
+</td>
+<td align="center" width="33%">
 
-![python_basic certificate_page-0001](https://github.com/user-attachments/assets/f0660313-6247-4854-b10e-ea883b7521d9)
+### 📊 Data Science
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white)
 
-  
-BCG X Data Science Job Simulation on Forage, working on a customer churn analysis for PowerCo, a client experiencing high churn rates due to competitor activity.   
-Forage
+</td>
+<td align="center" width="33%">
 
-![BCG X Data Science Certificate](https://github.com/user-attachments/assets/ab87c156-af79-44b0-82b6-575e9993b302)
+### 🔧 Tools & Platforms
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-  
-   
-# Honors & awards
-Startup Star Season 1
-Secured 7th Position in Startupvapi's Startup Star Season 1 Competition among hundreds of applicants from Valsad district.
-The idea for the pitch was about Petmania - An all in one Pet solution that makes the lives of pet owners easier.
+</td>
+</tr>
+</table>
 
-# Education
-B.Tech in Computer Science and Engineering (Specialisation in Artificial Intelligence and Machine Learning), VIT Bhopal University  
-2023 - 2027
+</div>
 
-Smt. Shobhaben Pratapbhai Patel Day Boarding School  
-Secondary School Examination, 2021 - 94.4%  
-Senior School Certificate Examination, 2023 - 84.6 %
+---
 
-# Contact
-LinkedIn: [My LinkedIn](https://www.linkedin.com/in/swayam200/)  
-GitHub: [My GitHub](https://github.com/Swayam200)  
-HackerRank: [My HackerRank](https://www.hackerrank.com/profile/swayam200)  
-Email: [My email](mailto:swayam.panda200@gmail.com)
+## 🚀 Featured Projects
+
+<div align="center">
+
+### 🌟 Project Showcase
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+### 🐠 Goldfish Password Generator
+**🔒 Computer Vision + Cryptography**
+
+Revolutionary TRNG using goldfish movements as entropy source with SHA-256 hashing. A unique approach to cybersecurity that combines biology with technology.
+
+**Tech Stack:** `Python` `OpenCV` `NumPy` `SHA-256`
+
+[![GitHub](https://img.shields.io/badge/View%20Code-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/swayam200/goldfish_password_generator)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
+
+<!-- Project image: ![Goldfish Demo](https://github.com/Swayam200/Swayam200.github.io/raw/main/assets/goldfish-demo.gif) -->
+
+</td>
+<td width="50%">
+
+### 🦠 Leptospirosis Predictor  
+**🏥 Healthcare AI + Machine Learning**
+
+ML model enhancing diagnostic capabilities using medical and weather data for early disease detection and prevention.
+
+**Tech Stack:** `Python` `Scikit-learn` `Pandas` `React.js`
+
+[![GitHub](https://img.shields.io/badge/View%20Code-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/swayam200/Leptospirosis-Predictor)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
+
+<!-- Project image: ![Leptospirosis Interface](https://github.com/Swayam200/Swayam200.github.io/raw/main/assets/leptospirosis.png) -->
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 🚂 Indian Railways Analysis
+**📊 Data Analytics Capstone**
+
+End-to-end analysis identifying ticket confirmation factors, delivering actionable insights for travelers through advanced statistical analysis.
+
+**Tech Stack:** `Python` `Pandas` `Tableau` `Jupyter`
+
+[![GitHub](https://img.shields.io/badge/View%20Code-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/swayam200/Indian-Railways-Analysis)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
+
+<!-- Project image: ![Railway Dashboard](https://github.com/Swayam200/Swayam200.github.io/raw/main/assets/railway-dashboard.png) -->
+
+</td>
+<td width="50%">
+
+### 🎮 Shape Recognition AI Game
+**🤖 Interactive Machine Learning**
+
+AI-powered drawing game with real-time shape prediction, demonstrating practical ML applications in educational gaming.
+
+**Tech Stack:** `Python` `OpenCV` `Machine Learning`
+
+[![GitHub](https://img.shields.io/badge/View%20Code-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/Swayam200/Shape_Recog_Game)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
+
+<!-- Project image: ![Shape Game Demo](https://github.com/Swayam200/Swayam200.github.io/raw/main/assets/shape-game.png) -->
+
+</td>
+</tr>
+</table>
+
+<div align="center">
+
+### 🔗 More Projects
+
+<details>
+<summary><b>📱 Click to view additional projects</b></summary>
+
+<br>
+
+### 👥 Gender & Age Recognition System
+**Intel AI 4 Youth Programme Final Project (2022)**
+- Real-time gender and age detection using computer vision
+- **Tech:** Python, OpenCV
+- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/Swayam200/Intel-AI-4-Youth-Project)
+
+### 🧠 Trivia Masters Quiz Game  
+**High School Final Project (2022-23)**
+- Interactive quiz application with database integration
+- **Tech:** Python, MySQL, Tkinter, CSV
+- [![GitHub](https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white)](https://github.com/Swayam200/Trivia-MastersAn)
+
+</details>
+
+</div>
+
+---
+
+<div align="center">
+
+## 🏆 Achievements & Recognition
+
+</div>
+
+<table>
+<tr>
+<td width="50%">
+
+### 🥇 Awards & Honors
+
+🚀 **Startup Star Season 1 - 7th Place**  
+*Startupvapi (2022)*  
+Pitched "Petmania" - all-in-one pet care solution
+
+🌟 **Open Source Contributor**  
+*AcWoC 2025 - Android Club, VIT Bhopal*  
+Collaborative development with Git & version control
+
+🎯 **Intel AI 4 Youth Programme**  
+*CBSE & Intel (2022)*  
+Computer Vision project recognition
+
+<!-- Award image: ![Startup Award](https://github.com/Swayam200/Swayam200.github.io/raw/main/assets/startup-award.jpg) -->
+
+</td>
+<td width="50%">
+
+### 📜 Professional Certifications
+
+✅ **Google Data Analytics Professional Certificate**
+- Foundations: Data, Data, Everywhere
+- Ask Questions to Make Data-Driven Decisions  
+- Prepare Data for Exploration
+- Process Data from Dirty to Clean
+
+✅ **University of Michigan**
+- Applied Machine Learning in Python
+- Programming for Everybody (Python)
+
+✅ **Industry Experience**
+- BCG X Data Science Job Simulation (Forage)
+- HackerRank: Python & SQL Certified
+
+<!-- Cert image: ![Google Certificate](https://github.com/Swayam200/Swayam200.github.io/raw/main/assets/google-cert.jpg) -->
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## 📊 GitHub Analytics
+
+<table>
+<tr>
+<td width="50%">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Swayam200&show_icons=true&theme=radical&include_all_commits=true&count_private=false&hide_border=true)
+
+</td>
+<td width="50%">
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Swayam200&layout=compact&theme=radical&hide_border=true)
+
+</td>
+</tr>
+<tr>
+<td colspan="2" align="center">
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Swayam200&theme=radical&hide_border=true)
+
+</td>
+</tr>
+</table>
+
+![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=Swayam200&theme=radical&hide_border=true&area=true)
+
+</div>
+
+---
+
+<div align="center">
+
+## 🎓 Education & Background
+
+</div>
+
+<table>
+<tr>
+<td width="70%">
+
+### 🏫 VIT Bhopal University  
+**B.Tech Computer Science & Engineering (AIML Specialization)**  
+📅 *May 2023 - May 2027* | 📍 *Bhopal, India*
+
+Focusing on cutting-edge technologies in Artificial Intelligence and Machine Learning, with hands-on experience in data science, computer vision, and predictive modeling.
+
+### 📚 Academic Foundation
+**Smt. Shobhaben Pratapbhai Patel Day Boarding School**
+- 🎓 **Senior School (2023):** 84.6%
+- 🎓 **Secondary School (2021):** 94.4%
+
+</td>
+<td width="30%">
+
+### 📈 Current Focus
+- 🔍 Advanced ML & Predictive Modeling
+- 📊 Data Visualization & BI
+- 🏥 Healthcare AI Solutions  
+- 🌐 Open Source Development
+- 🔒 Cryptography Applications
+
+<!-- Education image: ![VIT Campus](https://github.com/Swayam200/Swayam200.github.io/raw/main/assets/vit-campus.jpg) -->
+
+</td>
+</tr>
+</table>
+
+---
+
+<div align="center">
+
+## 💬 Let's Connect & Collaborate!
+
+<img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px" height="30px">
+
+**Ready to build something amazing together?**
+
+<table>
+<tr>
+<td align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/swayam200)  
+**Professional Network**
+
+</td>
+<td align="center">
+
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/swayam200)  
+**Code Repository**
+
+</td>
+<td align="center">
+
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:swayam.panda200@gmail.com)  
+**Direct Contact**
+
+</td>
+<td align="center">
+
+[![HackerRank](https://img.shields.io/badge/HackerRank-2EC866?style=for-the-badge&logo=hackerrank&logoColor=white)](https://www.hackerrank.com/profile/swayam200)  
+**Coding Skills**
+
+</td>
+</tr>
+</table>
+
+### 📍 Contact Information
+**📧 Email:** swayam.panda200@gmail.com  
+**📱 Phone:** +91 9989654631  
+**🌍 Location:** Daman and Diu, India
+
+---
+
+### 💡 Open for Opportunities
+- 🚀 **Internships** in Data Science & AI/ML
+- 🤝 **Collaboration** on innovative projects  
+- 💼 **Freelance** data analysis & ML projects
+- 🎯 **Open Source** contributions
+- 📢 **Speaking** at tech events & conferences
+
+</div>
+
+---
+
+<div align="center">
+
+### 🌟 Thank You for Visiting!
+
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=18&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=500&lines=Data+tells+stories...;AI+makes+them+actionable...;And+I+bring+both+to+life!+%F0%9F%9A%80" alt="Closing Message" />
+
+---
+
+<sub>⭐ **Made with ❤️ by [Swayam Prakash Panda](https://github.com/swayam200)** ⭐</sub>
+
+![Wave](https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg)
+
+</div>
