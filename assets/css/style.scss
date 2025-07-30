@@ -1,4 +1,4 @@
---- --- @import "{{ site.theme }}";
+@import "{{ site.theme }}";
 
 /* Custom CSS for aesthetic improvements */
 :root {
@@ -183,4 +183,32 @@ body {
 .project-card:hover {
     transform: scale(1.02);
     background: rgba(255, 255, 255, 0.1);
+}
+
+/* Mobile-first responsive design */
+@media (max-width: 480px) {
+    .glass-card {
+        margin: 5px;
+        padding: 15px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    .btn-animated {
+        display: block;
+        margin: 10px 0;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .skill-bar {
+        margin: 15px 0;
+    }
+
+    .project-card {
+        margin: 10px 0;
+    }
 }
