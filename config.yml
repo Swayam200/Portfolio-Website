@@ -1,0 +1,22 @@
+# Site settings
+title: Swayam Prakash Panda
+description: Data Analyst | AI/ML Enthusiast | B.Tech CSE (AIML) Student
+url: "https://swayam200.github.io"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# Enable custom CSS
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Custom variables
+author:
+  name: Swayam Prakash Panda
+  email: swayam.panda200@gmail.com
+  linkedin: swayam200
+  github: swayam200
