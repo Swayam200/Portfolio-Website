@@ -9,10 +9,29 @@ markdown: kramdown
 highlighter: rouge
 theme: minima
 
-# Enable custom CSS
+# Plugins
 plugins:
   - jekyll-feed
   - jekyll-sitemap
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "default"
 
 # Custom variables
 author:
@@ -20,3 +39,6 @@ author:
   email: swayam.panda200@gmail.com
   linkedin: swayam200
   github: swayam200
+
+# GitHub Pages specific
+github_username: swayam200
