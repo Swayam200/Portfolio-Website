@@ -130,6 +130,97 @@
             font-weight: 400;
         }
 
+        .typing-effect {
+            border-right: 3px solid var(--primary);
+            animation: blink 1s infinite;
+        }
+
+        @keyframes blink {
+
+            0%,
+            50% {
+                border-color: transparent;
+            }
+
+            51%,
+            100% {
+                border-color: var(--primary);
+            }
+        }
+
+        /* Loading Screen */
+        .loading {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--bg-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease, visibility 0.5s ease;
+        }
+
+        .loading.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        .loading-spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid var(--border);
+            border-top: 3px solid var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Animated Background */
+        .bg-animation {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+        }
+
+        .bg-animation::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(circle at 20% 80%, rgba(99, 102, 241, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(139, 92, 246, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(14, 165, 233, 0.05) 0%, transparent 50%);
+            animation: pulse-bg 8s ease-in-out infinite alternate;
+        }
+
+        @keyframes pulse-bg {
+            0% {
+                opacity: 0.3;
+            }
+
+            100% {
+                opacity: 0.8;
+            }
+        }
+
         .hero-description {
             font-size: 1.1rem;
             color: var(--text-muted);
@@ -159,6 +250,13 @@
             display: inline-flex;
             align-items: center;
             gap: 0.5rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 25px 30px -5px rgba(0, 0, 0, 0.5);
         }
 
         .btn-primary {
@@ -173,9 +271,19 @@
             border: 2px solid var(--primary);
         }
 
-        .btn:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 25px 30px -5px rgba(0, 0, 0, 0.5);
+        .btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.5s;
+        }
+
+        .btn:hover::before {
+            left: 100%;
         }
 
         .btn-primary:hover {
@@ -206,10 +314,22 @@
             padding: 2rem;
             transition: all 0.3s ease;
             margin-bottom: 2rem;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .glass-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, var(--primary), transparent);
         }
 
         .glass-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(-10px) scale(1.02);
             border-color: rgba(99, 102, 241, 0.3);
             box-shadow: var(--glow);
         }
@@ -254,6 +374,26 @@
             display: block;
         }
 
+        .stat-number.counting {
+            animation: count-up 2s ease-out;
+        }
+
+        @keyframes count-up {
+            0% {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
         .stat-label {
             color: var(--text-muted);
             font-size: 0.9rem;
@@ -288,9 +428,43 @@
             font-weight: 500;
         }
 
-        .skill-level {
-            color: var(--primary);
-            font-weight: 600;
+        .skill-bar {
+            width: 60%;
+            height: 8px;
+            background: var(--bg-secondary);
+            border-radius: 4px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .skill-progress {
+            height: 100%;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 4px;
+            transition: width 2s ease;
+            position: relative;
+            width: 0%;
+        }
+
+        .skill-progress::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.3), transparent);
+            animation: shimmer 2s infinite;
+        }
+
+        @keyframes shimmer {
+            0% {
+                transform: translateX(-100%);
+            }
+
+            100% {
+                transform: translateX(100%);
+            }
         }
 
         /* Contact Section */
@@ -410,6 +584,14 @@
 </head>
 
 <body>
+    <!-- Loading Screen -->
+    <div id="loading" class="loading">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="bg-animation"></div>
+
     <!-- Navigation -->
     <nav class="navbar">
         <div class="nav-container">
@@ -427,7 +609,9 @@
     <section id="home" class="hero">
         <div class="hero-content">
             <h1 class="hero-title">Swayam Prakash Panda</h1>
-            <h2 class="hero-subtitle">Data Analyst & AI/ML Enthusiast</h2>
+            <h2 class="hero-subtitle">
+                <span id="typing-effect" class="typing-effect">Data Analyst & AI/ML Enthusiast</span>
+            </h2>
             <p class="hero-description">
                 Passionate B.Tech CSE (AIML) student with Google Data Analytics certification,
                 turning complex data into actionable insights and building intelligent solutions
@@ -469,19 +653,19 @@
             <div class="glass-card">
                 <div class="stats-grid">
                     <div class="stat-item">
-                        <span class="stat-number">10+</span>
+                        <span class="stat-number" data-count="10">0</span>
                         <span class="stat-label">Projects</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">5+</span>
+                        <span class="stat-number" data-count="5">0</span>
                         <span class="stat-label">Certifications</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">2</span>
+                        <span class="stat-number" data-count="2">0</span>
                         <span class="stat-label">Years Learning</span>
                     </div>
                     <div class="stat-item">
-                        <span class="stat-number">7th</span>
+                        <span class="stat-number" data-count="7">0</span>
                         <span class="stat-label">Startup Rank</span>
                     </div>
                 </div>
@@ -497,19 +681,27 @@
                 <h4><i class="fas fa-code"></i> Programming Languages</h4>
                 <div class="skill-item">
                     <span class="skill-name">Python</span>
-                    <span class="skill-level">Advanced</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
                 </div>
                 <div class="skill-item">
                     <span class="skill-name">C++</span>
-                    <span class="skill-level">Intermediate</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
                 </div>
                 <div class="skill-item">
                     <span class="skill-name">SQL</span>
-                    <span class="skill-level">Advanced</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
                 </div>
                 <div class="skill-item">
                     <span class="skill-name">JavaScript</span>
-                    <span class="skill-level">Intermediate</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="70"></div>
+                    </div>
                 </div>
             </div>
 
@@ -517,19 +709,27 @@
                 <h4><i class="fas fa-brain"></i> AI/ML & Data Science</h4>
                 <div class="skill-item">
                     <span class="skill-name">Scikit-learn</span>
-                    <span class="skill-level">Advanced</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
                 </div>
                 <div class="skill-item">
                     <span class="skill-name">Pandas & NumPy</span>
-                    <span class="skill-level">Advanced</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
                 </div>
                 <div class="skill-item">
                     <span class="skill-name">OpenCV</span>
-                    <span class="skill-level">Intermediate</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
                 </div>
                 <div class="skill-item">
                     <span class="skill-name">Matplotlib</span>
-                    <span class="skill-level">Advanced</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
                 </div>
             </div>
 
@@ -537,19 +737,27 @@
                 <h4><i class="fas fa-tools"></i> Tools & Platforms</h4>
                 <div class="skill-item">
                     <span class="skill-name">Tableau</span>
-                    <span class="skill-level">Intermediate</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
                 </div>
                 <div class="skill-item">
                     <span class="skill-name">Google Cloud</span>
-                    <span class="skill-level">Intermediate</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="75"></div>
+                    </div>
                 </div>
                 <div class="skill-item">
                     <span class="skill-name">Git & GitHub</span>
-                    <span class="skill-level">Advanced</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
                 </div>
                 <div class="skill-item">
                     <span class="skill-name">MySQL</span>
-                    <span class="skill-level">Intermediate</span>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -634,6 +842,106 @@
 
     <!-- JavaScript -->
     <script>
+        // Loading screen
+        window.addEventListener('load', function () {
+            setTimeout(() => {
+                document.getElementById('loading').classList.add('hidden');
+            }, 1200);
+        });
+
+        // Typing effect
+        const typingTexts = [
+            'Data Analyst & AI/ML Enthusiast',
+            'Machine Learning Engineer',
+            'Data Science Innovator',
+            'Problem Solver & Tech Explorer'
+        ];
+
+        let currentTextIndex = 0;
+        let currentCharIndex = 0;
+        let isDeleting = false;
+        const typingElement = document.getElementById('typing-effect');
+
+        function typeWriter() {
+            const currentText = typingTexts[currentTextIndex];
+
+            if (isDeleting) {
+                typingElement.textContent = currentText.substring(0, currentCharIndex - 1);
+                currentCharIndex--;
+            } else {
+                typingElement.textContent = currentText.substring(0, currentCharIndex + 1);
+                currentCharIndex++;
+            }
+
+            let typeSpeed = isDeleting ? 50 : 100;
+
+            if (!isDeleting && currentCharIndex === currentText.length) {
+                typeSpeed = 2000;
+                isDeleting = true;
+            } else if (isDeleting && currentCharIndex === 0) {
+                isDeleting = false;
+                currentTextIndex = (currentTextIndex + 1) % typingTexts.length;
+                typeSpeed = 500;
+            }
+
+            setTimeout(typeWriter, typeSpeed);
+        }
+
+        // Start typing effect after loading
+        setTimeout(typeWriter, 1500);
+
+        // Stats counter animation
+        function animateCounters() {
+            const counters = document.querySelectorAll('[data-count]');
+
+            counters.forEach(counter => {
+                const target = parseInt(counter.getAttribute('data-count'));
+                let current = 0;
+                const increment = target / 50;
+                counter.classList.add('counting');
+
+                const updateCounter = () => {
+                    if (current < target) {
+                        current += increment;
+                        counter.textContent = Math.ceil(current);
+                        setTimeout(updateCounter, 40);
+                    } else {
+                        counter.textContent = target + (target < 10 ? '+' : target === 7 ? 'th' : '');
+                    }
+                };
+
+                updateCounter();
+            });
+        }
+
+        // Skill bars animation
+        function animateSkillBars() {
+            const skillBars = document.querySelectorAll('.skill-progress[data-width]');
+
+            skillBars.forEach((bar, index) => {
+                setTimeout(() => {
+                    const width = bar.getAttribute('data-width');
+                    bar.style.width = width + '%';
+                }, index * 200);
+            });
+        }
+
+        // Intersection Observer for animations
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    if (entry.target.querySelector('.stats-grid')) {
+                        animateCounters();
+                        observer.unobserve(entry.target);
+                    }
+                    if (entry.target.classList.contains('skills-grid')) {
+                        animateSkillBars();
+                        observer.unobserve(entry.target);
+                    }
+                }
+            });
+        }, { threshold: 0.3 });
+
         // Smooth scrolling for navigation
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -653,32 +961,72 @@
             const navbar = document.querySelector('.navbar');
             if (window.scrollY > 100) {
                 navbar.style.background = 'rgba(15, 15, 35, 0.95)';
+                navbar.style.backdropFilter = 'blur(20px)';
             } else {
                 navbar.style.background = 'rgba(15, 15, 35, 0.9)';
+                navbar.style.backdropFilter = 'blur(10px)';
             }
         });
 
-        // Add subtle animations on load
+        // Parallax effect
+        window.addEventListener('scroll', () => {
+            const scrolled = window.pageYOffset;
+            const rate = scrolled * -0.5;
+            const bgAnimation = document.querySelector('.bg-animation');
+            if (bgAnimation) {
+                bgAnimation.style.transform = `translateY(${rate}px)`;
+            }
+        });
+
+        // Initialize observers when DOM is loaded
         document.addEventListener('DOMContentLoaded', function () {
+            // Observe stats section
+            const aboutSection = document.querySelector('#about');
+            if (aboutSection) {
+                observer.observe(aboutSection);
+            }
+
+            // Observe skills section
+            const skillsGrid = document.querySelector('.skills-grid');
+            if (skillsGrid) {
+                observer.observe(skillsGrid);
+            }
+
+            // Add stagger animation to cards
             const cards = document.querySelectorAll('.glass-card');
             cards.forEach((card, index) => {
+                card.style.opacity = '0';
+                card.style.transform = 'translateY(30px)';
+                card.style.transition = 'all 0.6s ease';
+
                 setTimeout(() => {
                     card.style.opacity = '1';
                     card.style.transform = 'translateY(0)';
-                }, index * 100);
+                }, index * 150);
+            });
+
+            // Enhanced hover effects
+            cards.forEach(card => {
+                card.addEventListener('mouseenter', function () {
+                    this.style.transform = 'translateY(-10px) scale(1.02)';
+                });
+
+                card.addEventListener('mouseleave', function () {
+                    this.style.transform = 'translateY(0) scale(1)';
+                });
+            });
+
+            // Button hover effects
+            document.querySelectorAll('.btn').forEach(btn => {
+                btn.addEventListener('mouseenter', function () {
+                    this.style.transform = 'translateY(-3px) scale(1.05)';
+                });
+
+                btn.addEventListener('mouseleave', function () {
+                    this.style.transform = 'translateY(0) scale(1)';
+                });
             });
         });
-
-        // Initialize cards with fade-in effect
-        const style = document.createElement('style');
-        style.textContent = `
-            .glass-card {
-                opacity: 0;
-                transform: translateY(20px);
-                transition: all 0.6s ease;
-            }
-        `;
-        document.head.appendChild(style);
     </script>
 </body>
 
